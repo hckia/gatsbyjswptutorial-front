@@ -23,3 +23,9 @@ gatsby new gatsby-wp https://github.com/tomphill/gatsby-wordpress-starter
 **Step 3: Open gatsby-config.js**
 
 change the baseUrl to the CMS domain (ie gatsbyjswptutorial.local)
+
+**Step 4: Run build**
+
+```
+gatsby develop
+```
