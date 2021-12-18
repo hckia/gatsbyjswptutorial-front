@@ -31,7 +31,7 @@ module.exports = {
       resolve: "gatsby-source-wordpress",
       options: {
         minimizeDeprecationNotice: true,
-        baseUrl: "gatsby-wordpress-course.local",
+        baseUrl: "gatsbyjswptutorial.local",
         protocol: "http",
         hostingWPCOM: false,
         useACF: false,

@@ -37,9 +37,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomphill/wordpress-starter"
+    "url": "git+https://github.com/tomphill/wordpress-starter.git"
   },
   "bugs": {
     "url": "https://github.com/tomphill/wordpress-starter/issues"
-  }
+  },
+  "homepage": "https://github.com/tomphill/wordpress-starter#readme",
+  "main": "gatsby-browser.js"
 }
