@@ -29,3 +29,8 @@ change the baseUrl to the CMS domain (ie gatsbyjswptutorial.local)
 ```
 gatsby develop
 ```
+
+
+### Considerations
+
+gatsby would not run on bleeding edge. Rolled back to node 14
