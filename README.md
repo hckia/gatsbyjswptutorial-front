@@ -4,7 +4,8 @@ CMS repository can be found [here](https://github.com/hckia/gastbyjswptutorial-w
 
 ### Resources
 
-You can find repository resources utilized ![here](https://github.com/tomphill/)
+- You can find repository resources utilized [![here](https://github.com/tomphill/)]
+- Also added personal notes [! [here](https://github.com/hckia/gatsbyjswptutorial-front/blob/main/notes.md)]
 
 ### instructions
 
