@@ -2,6 +2,10 @@
 
 CMS repository can be found [here](https://github.com/hckia/gastbyjswptutorial-wordpress)
 
+### Resources
+
+You can find repository resources utilized ![here](https://github.com/tomphill/)
+
 ### instructions
 
 **Step 1: install gatsby-cli**
@@ -9,6 +13,7 @@ CMS repository can be found [here](https://github.com/hckia/gastbyjswptutorial-w
 ```
 sudo npm install -g gatsby-cli
 ```
+all other dependencies are in package.json
 
 **Step 2: install gatsby project**
 
