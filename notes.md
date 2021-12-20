@@ -119,3 +119,80 @@ If we rename the above to TestPage and the filename is testpage.js under the pag
   "extensions": {}
 }
 ```
+
+**skip the first result of a grahpql query**
+
+```
+{
+	allWordpressWpApiMenusMenusItems(skip: 1){
+		edges{
+			node{
+        name
+				items{
+					title
+          object_slug
+        }
+      }
+    }
+  }
+}
+```
+
+**limit the results of a query**
+
+```
+{
+	allWordpressWpApiMenusMenusItems(limit: 1){
+		edges{
+			node{
+        name
+				items{
+					title
+          object_slug
+        }
+      }
+    }
+  }
+}
+```
+
+**SORT the results of a query**
+
+```
+{
+	allWordpressWpApiMenusMenusItems(sort:{fields: name, order: DESC}){
+		edges{
+			node{
+        name
+				items{
+					title
+          object_slug
+        }
+      }
+    }
+  }
+}
+```
+
+**Filter the results based on a parameter**
+
+```
+{
+  allWordpressWpApiMenusMenusItems(filter: {
+		name: {
+			eq:"Main Menu"
+    }
+  }) {
+    edges {
+      node {
+        name
+        items {
+          title
+          object_slug
+        }
+      }
+    }
+  }
+}
+
+```
