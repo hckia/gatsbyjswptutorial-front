@@ -68,6 +68,8 @@ module.exports = {
         }, */
         concurrentRequests: 10,
         // menus included via WP REST API Menus plugin to save time.
+        // * are wildcard options, so base_url/wp-json/wp/v2/custom_post_type would be...
+        // **/*/*/custom_post_type
         includedRoutes: [
           "**/categories",
           "**/posts",
@@ -77,6 +79,7 @@ module.exports = {
           "**/taxonomies",
           "**/users",
           "**/menus",
+          "**/portfolio"
         ],
         // Blacklisted routes using glob patterns
         /* excludedRoutes: [''],
